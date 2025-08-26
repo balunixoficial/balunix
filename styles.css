@@ -1,69 +1,68 @@
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #fefefe;
-    color: #2e2e2e;
-    text-align: center;
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fffdf6;
+    color: #2f2f2f;
+    text-align: center;
 }
 
 .encabezado {
-    background-color: #fefefe;
-    padding: 40px 20px 20px;
+    background: linear-gradient(to bottom, #fff8e1, #f3e5ab);
+    padding: 30px 20px;
     border-bottom: 5px solid #bb6c27;
+    position: relative;
 }
 
 .logo {
-    max-width: 180px;
-    margin: auto 20px 20px;
+    max-width: 130px;
     display: block;
+    margin: 0 auto 10px;
 }
 
 h1 {
-    color: #2e2e2e;
-    font-size: 36px;
+    font-size: 40px;
+    color: #2f2f2f;
     margin: 10px 0 5px;
 }
 
-.eslogan {
-    color: #bb6c27;
-    font-size: 20px;
-    margin: 0;
-}
-
-.contenido {
-    padding: 40px 20px;
-}
-
 h2 {
+    font-size: 20px;
     color: #bb6c27;
+    margin-bottom: 5px;
 }
 
-.productos {
+.estrellas {
+    font-size: 24px;
+    color: #f0b429;
+    margin-top: 10px;
+}
+
+main {
+    padding: 30px 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 40px;
+    color: #2f2f2f;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+ul {
     list-style: none;
     padding: 0;
     font-size: 18px;
     margin-top: 20px;
 }
 
-.productos li {
-    margin: 10px 0;
-}
-
-.pie {
-    background-color: #fefefe;
-    color: #2e2e2e;
-    padding: 30px 20px;
-    border-top: 2px solid #bb6c27;
-    font-size: 16px;
-}
-
-.pie a {
-    color: #bb6c27;
-    text-decoration: none;
-}
-
-.pie a:hover {
-    text-decoration: underline;
+li {
+    margin: 12px 0;
 }
