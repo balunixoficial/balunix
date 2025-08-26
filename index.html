@@ -5,77 +5,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BALUNIX - Luz para el alma</title>
+    <link rel="stylesheet" href="estilos.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             background-color: #fefefe;
-            color: #2e2e2e;
+            margin: 0;
+            padding: 0;
             text-align: center;
-            padding: 20px;
+            color: #2e2e2e;
         }
-        img.logo {
-            max-width: 250px;
-            margin-bottom: 10px;
+        header {
+            background-color: #fefefe;
+            padding: 40px 20px 20px;
+            border-bottom: 5px solid #bb6c27;
+        }
+        .logo {
+            max-width: 180px;
+            margin: 0 auto 20px;
         }
         h1 {
+            font-size: 42px;
             color: #2e2e2e;
-            font-size: 36px;
+            margin-bottom: 10px;
         }
         h2 {
+            font-size: 20px;
             color: #bb6c27;
-            font-size: 22px;
-            margin-top: -10px;
+            margin-top: 0;
         }
         section {
+            padding: 40px 20px;
             max-width: 800px;
-            margin: 0 auto 30px auto;
+            margin: 0 auto;
             text-align: left;
+        }
+        h3 {
+            color: #2e2e2e;
         }
         ul {
             list-style: none;
             padding-left: 0;
+        }
+        li {
             font-size: 18px;
+            margin-bottom: 10px;
         }
-        ul li::before {
-            content: "✨ ";
+        .emoji {
+            font-size: 22px;
+            margin-right: 8px;
         }
-        .buttons a {
+        footer {
+            margin-top: 30px;
+            font-size: 16px;
+        }
+        .botones {
+            margin-top: 20px;
+        }
+        .boton {
             display: inline-block;
-            margin: 10px;
+            margin: 0 10px;
             padding: 10px 20px;
-            background-color: #24292e;
+            background-color: #bb6c27;
             color: white;
             text-decoration: none;
             border-radius: 5px;
         }
-        .buttons a:hover {
-            background-color: #444;
+        .boton:hover {
+            background-color: #a1581f;
         }
     </style>
 </head>
 <body>
-    <img src="logo_balunix.jpg" alt="Logo BALUNIX" class="logo">
-    <h1>BALUNIX</h1>
-    <h2>Luz para el alma</h2>
+    <header>
+        <img src="logo_balunix.jpg" alt="Logo BALUNIX" class="logo">
+        <h1>BALUNIX</h1>
+        <h2>Luz para el alma</h2>
+    </header>
 
     <section>
         <h3>Nuestra esencia</h3>
         <p>BALUNIX nace del amor por dos almas gatunas: Balu y Onix. Esta marca representa protección, calma y conexión con la energía de la luz. El ónix, piedra espiritual, nos guía en el camino de la limpieza y la transformación interna.</p>
-    </section>
 
-    <section>
         <h3>Productos con intención</h3>
         <ul>
-            <li>Velas personalizadas 🕯️</li>
-            <li>Kits energéticos 🌿</li>
-            <li>Baños espirituales 💧</li>
-            <li>Packs para amor, abundancia y protección ✨</li>
+            <li><span class="emoji">🕯️</span>Velas personalizadas</li>
+            <li><span class="emoji">🌿</span>Kits energéticos</li>
+            <li><span class="emoji">💧</span>Baños espirituales</li>
+            <li><span class="emoji">✨</span>Packs para amor, abundancia y protección</li>
         </ul>
-    </section>
 
-    <div class="buttons">
-        <a href="https://wa.me/573127613589" target="_blank">WhatsApp</a>
-        <a href="https://instagram.com/balunixoficial" target="_blank">Instagram</a>
-    </div>
+        <div class="botones">
+            <a class="boton" href="https://wa.me/573127613589" target="_blank">WhatsApp</a>
+            <a class="boton" href="https://instagram.com/balunixoficial" target="_blank">Instagram</a>
+        </div>
+    </section>
 </body>
 </html>
