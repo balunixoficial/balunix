@@ -1,0 +1,49 @@
+
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #fdf6f0;
+    color: #3c2f2f;
+}
+
+header {
+    background-color: #f9f3ea;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #d2b48c;
+}
+
+header img {
+    max-height: 80px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 10px 0 0 0;
+    color: #5c4438;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 5px 0 15px;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #f9f3ea;
+    color: #5c4438;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #d2b48c;
+}
+
+.social-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #5c4438;
+    font-weight: bold;
+}
